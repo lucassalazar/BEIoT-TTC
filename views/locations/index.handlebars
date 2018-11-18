@@ -1,0 +1,14 @@
+{{#each locations}}
+  <div class="conteudo card card-body mb-2">
+    <p>Coordenadas: {{lat}}, {{long}}</p>
+    <p>{{date}}</p>
+    <form method="post" action="/locations/{{id}}?_method=DELETE">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" class="btn btn-danger btn-block" value="Delete">
+    </form>
+  </div>
+{{else}}
+  <p>There is no registered locations.</p>
+{{/each}}
+<script src="https://cdn.mapfit.com/v2-4/assets/js/mapfit.js"></script>
+<script type="text/javascript" src="./JS/reverseGeo.js"></script>

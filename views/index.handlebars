@@ -1,0 +1,19 @@
+<div class="jumbotron text-center">
+  <img id="logo-img" onmouseover="changeImg(this)" onmouseout="img(this)" src="/img/logo.png">
+  <h1 class="display-3">{{title}}</h1>
+  <p class="lead">An IoT application for electronic canes</p>
+  {{#if user}}
+  <a href="/wsclient" class="btn btn-dark btn-lg">Websocket UI</a>
+  {{else}}
+  <a href="/users/register" class="btn btn-dark btn-lg">Register</a>
+  {{/if}}
+</div>
+<script>
+function img(x) {
+  document.getElementById('logo-img').src = '/img/logo.png'
+}
+
+function changeImg(x) {
+  document.getElementById('logo-img').src = '/img/logo1.png'
+}
+</script>

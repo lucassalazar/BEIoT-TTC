@@ -1,0 +1,28 @@
+.jumbotron {
+  background-color: lightgray !important;
+}
+
+.login-logo{
+  width: 80px;
+  margin:auto;
+}
+
+.icon-logo{
+  padding-bottom: 6px;
+}
+
+.navbar-brand{
+  font-family: 'Oswald', sans-serif;
+}
+
+.container{
+  font-family: 'Oswald', sans-serif;
+}
+
+.coordinates {
+  display: none;
+}
+
+#signalSent {
+  display: none;
+}
