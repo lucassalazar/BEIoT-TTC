@@ -1,4 +1,4 @@
-# BeIoT-A
-Principais componentes da aplicação web do projeto BeIoT-A
+# BEIoT-A
+Principais componentes da aplicação web do projeto BEIoT-A
 
 https://beiotapp.ddns.net
