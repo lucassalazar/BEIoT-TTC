@@ -5,4 +5,4 @@ BeIoT-A (Bengala Eletrônica IoT Application) é um projeto que visa a utilizaç
 
 - [x] Aplicação web;
 - [x] Firmware da Bengala Eletrônica (NodeMCU & nRF24L01+);
-- [X] Firmware dos Nós Sensores (Arduino & nRF24L01+); 
+- [X] Firmware dos Nós Sensores (Arduino & nRF24L01+).
